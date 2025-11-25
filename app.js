@@ -42,6 +42,7 @@
 
 // ];
 
+// Display the entire list, so that the not yet purchased items go before the bought ones.
 // console.log("Not bought:");
 // for (let key in groceriesList) {
 //     if (groceriesList[key].bought === false) {
@@ -57,6 +58,8 @@
 // }
 
 
+// Adding a purchase to the list. Note that if a product already exists, the amount needs to
+//  be increased in the existing purchase, not in a new one. 
 
 // function addPurchase(list, name, amount, price) {
 //     let found = false;
@@ -96,6 +99,7 @@
 // console.log(groceriesList);
 
 
+// Purchasing a product. The function accepts the name of a product and marks it as bought.
 
 // function purchasingProduct(list, name) {
 //   let found = false;
@@ -155,6 +159,7 @@
 //     }
 // ];
 
+// Print the receipt out on the screen.
 
 // function showReceipt(receipt) {
 //     let completTot = 0;
@@ -172,6 +177,10 @@
 // showReceipt(shopReceipt);
 
 
+
+
+// Counting the sum of the purchase.
+
 // function findSum(list){
 //   let sum = 0;
 //   for (let i = 0; i < list.length; i++) {
@@ -182,6 +191,9 @@
 
 // findSum(shopReceipt);
 
+
+
+// Extracting the most expensive item on the receipt.
 
 // function maximum(list) {
 //     let max = list[0]; 
@@ -195,6 +207,9 @@
 
 // maximum(shopReceipt);
 
+
+
+// Counting an average item price on the receipt.
 
 // function findAverage(list) {
 //   let sum = 0;
@@ -341,5 +356,6 @@
 
 // sortByAlphabet(academyClassroom);
 // console.log("Sorted by alphabet order" ,academyClassroom);
+
 
 
