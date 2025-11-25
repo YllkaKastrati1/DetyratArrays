@@ -279,22 +279,22 @@
 // let academyClassroom = [
 //   { 
 //     name: "Klasa X-1",
-//     seats: 55, 
+//     seats: 10, 
 //     faculty: "FIEK" 
 //   },
 //   { 
 //     name: "A3", 
-//     seats: 112, 
+//     seats: 12, 
 //     faculty: "MP" 
 //   },
 //   {
 //     name: "A5", 
-//     seats: 30, 
+//     seats: 20, 
 //     faculty: "FBV" 
 //   },
 //   {
 //     name: "Amf", 
-//     seats: 60, 
+//     seats: 16, 
 //     faculty: "BF" 
 //   }
 // ];
@@ -357,6 +357,7 @@
 
 // sortByAlphabet(academyClassroom);
 // console.log("Sorted by alphabet order" ,academyClassroom);
+
 
 
 
