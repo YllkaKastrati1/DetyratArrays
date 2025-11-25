@@ -214,7 +214,8 @@
 // function findAverage(list) {
 //   let sum = 0;
 //   for (let i = 0; i < list.length; i++) {
-//     sum += list[i].amount * list[i].price; 
+//       sum += list[i].price;
+ 
 //   }
 
 //   let average = sum / list.length;
@@ -356,6 +357,7 @@
 
 // sortByAlphabet(academyClassroom);
 // console.log("Sorted by alphabet order" ,academyClassroom);
+
 
 
 
